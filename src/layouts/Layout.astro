@@ -1,0 +1,63 @@
+---
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+
+import Presentation from '../components/Presentation.astro';
+import Header from './Header.astro';
+import Nav from './Nav.astro';
+import Armors from './strakLife/Armors.astro';
+import Houses from './strakLife/Houses.astro';
+import TonyStark from './strakLife/TonyStark.astro';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" href="/public/ironman.ico" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body>
+		<main class="bg-black  w-full h-[full] pb-2">
+			<Presentation/>
+			<Nav/>
+			<Header />
+			<TonyStark/>
+			<Houses/>
+			<Armors/>
+			<slot />
+		</main>
+	</body>
+</html>
+<style is:global>
+	html {
+		background: #13151a;
+		background-size: 224px;
+		scroll-behavior: smooth;
+	}
+  @font-face {
+    font-family: 'IRON MAN OF WAR';
+    src: url(../../public/IRON\ MAN\ OF\ WAR\ 002\ NCV.ttf);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+	code {
+		font-family:
+			Menlo,
+			Monaco,
+			Lucida Console,
+			Liberation Mono,
+			DejaVu Sans Mono,
+			Bitstream Vera Sans Mono,
+			Courier New,
+			monospace,
+			'IRON MAN OF WAR';
+	}
+</style>

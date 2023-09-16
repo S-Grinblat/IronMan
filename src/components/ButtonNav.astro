@@ -1,0 +1,52 @@
+
+<button id="mostrarNav">
+  <div></div>
+  <div></div>
+  <div></div>
+</button>
+
+<style>
+  button {
+    display: none;
+    flex-direction: column;
+    width: 3rem; 
+    height: 3rem;
+    border: 0;
+    background: transparent;
+    gap: .65rem;
+    align-items: center;
+    opacity: 1;
+  }
+  button > div {
+    background-color: #ffc619;
+    height: 2px;
+    width: 100%;
+    border-radius: 5px;
+    transition: transform .5s;
+    transform-origin: left;
+    margin: 3px 0;
+  }
+  button:hover div:first-child{
+    position: relative;
+    left: 10px;
+    background-color: #ffc619;
+    transform: rotate(50deg);
+  }
+  button:hover div:nth-child(2){
+    background-color: #4d0908;
+    opacity: 0;
+    transition: .5s;
+  }
+  button:hover div:last-child {
+    position: relative;
+    left: 10px;
+    background-color: #ffc619;
+    transform: rotate(-50deg);
+  }
+
+  @media (min-width: 1280px) {
+    button {
+      display: flex;
+    }
+  }
+</style>
