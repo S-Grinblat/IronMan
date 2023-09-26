@@ -40,12 +40,11 @@ el?.addEventListener('mousemove', (evt) => {
 
   <div class="hover-3d">
     <div id="card" @mouseover="onMouseOver" @mouseout="onMouseOut">
-      <div class='inline-block w-56 h-auto py-2'>
-        <img src='/src/layouts/strakLife/imagesLocals/TonyStark.webp' class=' w-full h-full object-cover rounded-xl'></img>
+      <div class='inline-block w-56 h-auto py-4'>
+        <img src='/src/layouts/strakLife/imagesLocals/Pepper.jpeg' class=' w-full h-full object-cover rounded-xl'></img>
       </div>
     </div>
   </div>
-
 
 
 <style>
@@ -56,14 +55,13 @@ el?.addEventListener('mousemove', (evt) => {
   }
 
   .card {
-    box-shadow: 0px 10px 50px rgba(255 255 255 );
+    
     transform-style: preserve-3d; 
     transition: transform 1s; 
   }
 
   .card:hover {
-    transform: rotateY(40deg); 
-    transform: rotateX(40deg); 
-    
+    transform: rotateY(30deg); 
+    transform: rotateX(30deg);
   }
 </style>

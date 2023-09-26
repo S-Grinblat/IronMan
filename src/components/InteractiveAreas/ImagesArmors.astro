@@ -1,0 +1,31 @@
+---
+import CardArmorsImage from './CardArmorsImage.astro'
+const mostPopularArmors = [
+  {
+    "id": 'Armor I',
+    "img": "https://i.pinimg.com/originals/b2/a3/b7/b2a3b7a3c97c0ba8b582f015e709b295.jpg",
+    "description": "La primera armadura construida por Tony Stark en cautiverio. Hecha de chatarra y piezas de misiles."
+  },
+  {
+    "id": 'Armor II',
+    "img": "https://i.pinimg.com/originals/af/87/0f/af870f91c72ef8d04f3ea6e76ad76d69.jpg",
+    "description": "La primera armadura construida por Tony Stark en cautiverio. Hecha de chatarra y piezas de misiles."
+  }
+]
+---
+
+
+
+<div class="flex overflow-x-auto">
+  <ul class="flex  sm:gap-4 md:grid md:grid-cols-2 lg:gap-10">
+    {
+      mostPopularArmors.map(({id, img}) => {
+        return(
+          <li class="w-[320px] ">
+            <CardArmorsImage id={id} img={img}/>
+          </li>
+        )
+      })
+    }
+  </ul>
+</div>

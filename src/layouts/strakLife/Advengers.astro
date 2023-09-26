@@ -1,0 +1,15 @@
+---
+import KnowMoreButton from "../../components/interactiveButtons/KnowMoreButton.astro";
+
+---
+
+<section class="pb-8" id="Team">
+  <h3 class="title">Advengers</h3>
+  <div class="flex flex-col justify-center items-center">
+    <div class="w-[320px] h-auto p-3"> 
+      <img class="w-full h-full bg-cover rounded-xl" src="/src/layouts/strakLife/imagesLocals/The-Avengers-End-Pictures.jpeg" alt="Advengers">
+      <p class="text-gray-400 text-center">The team was formed with the purpose of uniting the world's most powerful heroes to protect it from supernatural threats and supervillains. Team members have varied over the years, but the most iconic characters include Iron Man, Captain America, Thor, Hulk, Black Widow, and Hawkeye.</p>
+    </div>
+    <KnowMoreButton> <slot>All Advengers</slot> </KnowMoreButton>
+  </div>
+</section>

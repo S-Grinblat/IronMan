@@ -1,20 +1,17 @@
 ---
-import Tony3d from './Stark3d.astro'
+import Tony3d from '../../components/InteractiveAreas/Stark3d.astro'
 ---
 
 <section class='flex flex-col justify-center items-center py-16' id='Tony'>
-  <h2 class='text-[#7cdaf9] animate-pulse  text-5xl'>Tony Stark</h2>
+  <h2 class='title'>Tony Stark</h2>
   <div class="h-full " >
     <Tony3d/>
-    <p class='text-gray-300 text-center px-4'>Beyond his identity as Iron Man, is a man with a fascinating life. Born into wealth, his brilliance manifested itself from an early age. As heir to Stark Industries, he transformed the company into a global technology empire, introducing advances in clean energy, medicine and defense.
+    <p class='text-gray-300 text-center px-4 '>Beyond his identity as Iron Man, is a man with a fascinating life. Born into wealth, his brilliance manifested itself from an early age. As heir to Stark Industries, he transformed the company into a global technology empire, introducing advances in clean energy, medicine and defense.
       <strong class="text-white">As he can see, he is more than a genius, millionaire, playboy and philanthropist.</strong></p>
   </div>
 </section>
 
 <style>
-  h2 {
-    font-family: 'IRON MAN OF WAR';
-  }
   p {
     max-width: 500px;
   }
