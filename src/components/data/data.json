@@ -1,74 +1,244 @@
 {
-  "Armaduras": [
+  "Suits": [
     {
       "id": 1,
-      "imagen": "https://i.pinimg.com/originals/b2/a3/b7/b2a3b7a3c97c0ba8b582f015e709b295.jpg",
-      "descripcion": "La primera armadura construida por Tony Stark en cautiverio. Hecha de chatarra y piezas de misiles."
+      "imagen": "https://pm1.aminoapps.com/6707/446ac3e7ad05d24361d4551e49b118477273e6e6_hq.jpg",
+      "descripcion": " MK I fue construido por Tony Stark mientras estaba cautivo en una cueva en Afganistán después de ser secuestrado por un grupo terrorista. Utilizando su genio tecnológico y los recursos limitados disponibles, Stark creó este primitivo pero funcional traje de combate. El traje estaba hecho de chatarra de metal y tenía un diseño rudimentario en comparación con las futuras iteraciones."
     },
     {
       "id": 2,
-      "imagen": "https://i.pinimg.com/originals/df/bc/0f/dfbc0feadc799a5ffd1c5c49b9b19261.jpg",
-      "descripcion": "La primera armadura construida por Tony Stark en cautiverio. Hecha de chatarra y piezas de misiles."
+      "imagen": "https://pm1.aminoapps.com/6707/2333556fb88457ed3f21364dbcde293a91485156_hq.jpg",
+      "descripcion": "El MK II todavía tenía algunas limitaciones y no estaba completamente listo para el combate en su forma inicial. Sin embargo, sentó las bases para futuras mejoras y se convirtió en un prototipo crucial para el desarrollo de trajes Iron Man más avanzados."
     },
     {
       "id": 3,
-      "imagen": "https://th.bing.com/th/id/OIP.n5XI5E618MOXswcI6TXeRgHaNp?pid=ImgDet&rs=1",
-      "descripcion": "Una versión mejorada de la Mark II con un diseño más elegante y una mayor resistencia."
+      "imagen": "https://pm1.aminoapps.com/6707/ff220e91e676ed6e2cfb56da26eec37a49c112cc_hq.jpg",
+      "descripcion": "Este traje se caracterizó por su diseño mucho más refinado y estilizado. Estaba construido con una aleación de oro y titanio, lo que lo hacía extremadamente resistente y liviano al mismo tiempo. Una de las características más destacadas del MK III era su capacidad para el vuelo, gracias a los propulsores de repulsión ubicados en los pies y las manos. Además, estaba equipado con una amplia variedad de armas y gadgets, incluyendo rayos láser y misiles. También contaba con un sistema de comunicación avanzado y una interfaz de control sofisticada que permitía a Tony Stark operar el traje de forma más eficiente."
     },
     {
       "id": 4,
-      "imagen": "https://th.bing.com/th/id/OIP._yV3bTfzlJbSCWih3Z94nAHaNp?pid=ImgDet&rs=1",
-      "descripcion": "Una versión mejorada de la Mark II con un diseño más elegante y una mayor resistencia."
+      "imagen": "https://pm1.aminoapps.com/6707/93bec53edbd92da73889694845543daef75bc35b_hq.jpg",
+      "descripcion": "Al igual que sus predecesores, este traje estaba construido con una aleación avanzada, lo que lo hacía resistente y altamente protector. Sin embargo, una de las diferencias clave radicaba en su diseño exterior, que presentaba un acabado más suave y elegante. Una característica distintiva del MK IV era su capacidad de cambiar de forma, lo que permitía que las piezas del traje se ajustaran de manera dinámica a las necesidades de Tony Stark. Esto hacía que el traje fuera más versátil y adaptable en situaciones de combate y vuelo."
     },
     {
       "id": 5,
       "imagen": "https://i.pinimg.com/originals/af/87/0f/af870f91c72ef8d04f3ea6e76ad76d69.jpg",
-      "descripcion": "Una versión mejorada de la Mark II con un diseño más elegante y una mayor resistencia."
+      "descripcion": "El MK V, apodado 'Maletín de Iron Man', fue diseñado específicamente para ser compacto y transportable. A diferencia de los trajes anteriores que requerían un taller o una instalación especial para ser equipados, el MK V tenía la particularidad de poder ser plegado y guardado en un maletín resistente."
     },
     {
       "id": 6,
-      "imagen": "https://th.bing.com/th/id/OIP.lPzsUHnn3ZfrIR3LaZdy9AHaNp?pid=ImgDet&rs=1",
-      "descripcion": "Una versión mejorada de la Mark II con un diseño más elegante y una mayor resistencia."
+      "imagen": "https://pm1.aminoapps.com/6707/3f469e2ae316a3973b1cfcec31c3b04952024873_hq.jpg",
+      "descripcion": "El MK VI fue diseñado con una mayor eficiencia y versatilidad en mente. Este traje incorporó varias mejoras tecnológicas, incluyendo un sistema mejorado de propulsión y una mayor resistencia en comparación con las versiones anteriores. Una característica destacada del MK VI fue la inclusión de la tecnología de nanomáquinas. Esto permitía que el traje se formara y se ajustara dinámicamente a Tony Stark en cuestión de segundos. Además, el MK VI presentaba una mayor capacidad de vuelo y maniobrabilidad, lo que lo hacía extremadamente ágil en el aire y en el combate."
     },
     {
       "id": 7,
-      "imagen": "https://i.pinimg.com/736x/55/61/0a/55610aa2385858f790709698d1456741--iron-man-movie-iron-man-suit.jpg",
-      "descripcion": "Una versión mejorada de la Mark II con un diseño más elegante y una mayor resistencia."
+      "imagen": "https://pm1.aminoapps.com/6707/534097bc96b91a0bd2a667f4c37f2d776280ae0d_hq.jpg",
+      "descripcion": "El MK VII fue diseñado como una versión mejorada del MK VI y presentaba varias características avanzadas. Una de las características más notables de este traje era su capacidad para ser convocado a distancia. Tony Stark podía llamar al traje y este volaba desde su lugar de almacenamiento para unirse a él en cuestión de segundos, lo que resultaba extremadamente conveniente en situaciones de emergencia."
     },
     {
       "id": 8,
-      "imagen": "https://th.bing.com/th/id/OIP.BgidbZXXvfgFQ2KsU5GVLgAAAA?pid=ImgDet&rs=1",
-      "descripcion": "Una versión mejorada de la Mark II con un diseño más elegante y una mayor resistencia."
+      "imagen": "https://pm1.aminoapps.com/6707/a8e199e607408534155fbfa2421ebe79c0d1df9a_hq.jpg",
+      "descripcion": "La MK VIII fue también la primera de varias armaduras de Iron Man creadas durante un periodo rápido de desarrollo que lo condujo a la creación de la Legión de Hierro. Fue destruido por el protocolo 'Clean Slate' activado por Stark.."
     },
     {
       "id": 9,
-      "imagen": "https://th.bing.com/th/id/R.5cdc7f95aae087bc5a9a997d78e61f53?rik=bcdcdeRCY21jQQ&riu=http%3a%2f%2fimg1.gamersky.com%2fimage2015%2f05%2f20150524cks_17%2fgamersky_07small_14_20155241613B7D.jpg&ehk=GJjIn8Cc%2bnou%2brPUkk0Q%2bSdGhqs8J6PF39PUtldX7tk%3d&risl=&pid=ImgRaw&r=0",
-      "descripcion": "Una versión mejorada de la Mark II con un diseño más elegante y una mayor resistencia."
+      "imagen": "https://pm1.aminoapps.com/6708/61d69c7c91fc4eacb21784817174304d523d8bb0_hq.jpg",
+      "descripcion": "espués de que Stark destruyera la MK XLII en un intento fallido de matar a Killian, apareció el MK IX apuntando a Killian y Virginia Potts, ya que ambos mostraban las firmas de calor del Extremis."
     },
     {
       "id": 10,
-      "imagen": "https://mlpnk72yciwc.i.optimole.com/cqhiHLc.WqA8~2eefa/w:600/h:900/q:75/https://bleedingcool.com/wp-content/uploads/2018/10/Hot-Toys-MCU-10th-Anniversary-Concept-Iron-Man-1.jpg",
-      "descripcion": "Una versión mejorada de la Mark II con un diseño más elegante y una mayor resistencia."
+      "imagen": "https://pm1.aminoapps.com/6708/44237a501722c03bbe8d5f8acdcdd1dd30dfcb27_hq.jpg",
+      "descripcion": "Una armadura similar al resto, con caracteristas similares y lograron derrotar a muchos de los soldados de Extremis."
     },
     {
       "id": 11,
-      "imagen": "https://i.pinimg.com/originals/c8/e2/55/c8e255133f7b86474ab5790116038355.jpg",
-      "descripcion": "Una versión mejorada de la Mark II con un diseño más elegante y una mayor resistencia."
+      "imagen": "https://pm1.aminoapps.com/6708/15674a3a58a13e9e380da3a165fc44357c986988_hq.jpg",
+      "descripcion": "Para esta Armadura se tomo la desicion de hacerla especificamente mas resistente en la zona del torso para favorecer el valance del peso en consecuencia a los laterales mas pronunciados."
     },
     {
       "id": 12,
-      "imagen": "https://i.pinimg.com/736x/90/3c/dc/903cdc4a7950457d0a17100ed977a840--iron-man-movie-iron-man-armor.jpg",
-      "descripcion": "Una versión mejorada de la Mark II con un diseño más elegante y una mayor resistencia."
+      "imagen": "https://pm1.aminoapps.com/6708/19ea6402694437c124b0b5fe465d6f50f10908c0_hq.jpg",
+      "descripcion": "Versión mejorada del mk 11, Fue parte de las unidades prototipo para mejorar la Aerodinamia de los trajes, de eso se debe la falta de color."
     },
     {
       "id": 13,
-      "imagen": "https://pm1.narvii.com/6708/61d69c7c91fc4eacb21784817174304d523d8bb0_hq.jpg",
-      "descripcion": "Una versión mejorada de la Mark II con un diseño más elegante y una mayor resistencia."
+      "imagen": "https://pm1.aminoapps.com/6708/7b58a05230c139dae55da9733740a6d58ba83ac1_hq.jpg",
+      "descripcion": "Versión mejorada del mk 12, Segundo prototipo para mejorar la aerodinamica por ello son mas visibles los acabados mas sutiles."
     },
     {
       "id": 14,
-      "imagen": "https://assets.cdn.moviepilot.de/files/e96113335bb3712d5e3c56e53e9abaac484b771b1977b79300d66cf37d5e/limit/720/480/Iron_Man_10.jpg",
-      "descripcion": "Una versión mejorada de la Mark II con un diseño más elegante y una mayor resistencia."
+      "imagen": "https://pm1.aminoapps.com/6708/982cd520d07d0adfc52a4e0b9823e1dd3710b3dc_hq.jpg",
+      "descripcion": "Armadura prototipo que vinculaba no solo la velocidad Y aredinamia de sus versiones anteriores, si no, que ahora ademas se le sumaba una version letal."
+    },
+    {
+      "id": 15,
+      "imagen": "https://pm1.aminoapps.com/6708/9d9e667b8795bcde6efd689eb1becbdf44165130_hq.jpg",
+      "descripcion": "La primera armadura especial y también la primera con nombre, esta armadura fue hecha como un prototipo de traje de sigilo basada en la armadura sigilosa MK I y también en el MK II ."
+    },
+    {
+      "id": 16,
+      "imagen": "https://pm1.aminoapps.com/6708/15391bdab5893e3db4479af8a624cc8bffd594ed_hq.jpg",
+      "descripcion": "Versión mejorada del MK XV, esta armadura es una versión perfeccionada del traje de sigilo basada en la armadura de sigilo MK III, MK IV. Su particular nombre se debe los gustos del SR. Stark"
+    },
+    {
+      "id": 17,
+      "imagen": "https://pm1.aminoapps.com/6708/37c7fe87713853bcd139ee7d141f4668884f4960_hq.jpg",
+      "descripcion": "Armadura especial de artillería pesada capaz de disparar varios disparos potentes del nucleo gracias al mini reactor que contenia ."
+    },
+    {
+      "id": 18,
+      "imagen": "https://pm1.aminoapps.com/6708/94e967117fe52108babdd76a217d655db43f5963_hq.jpg",
+      "descripcion": "Versión mejorada del MK XVII, esta armadura es una versión mejorada de un traje de artillería pesada. Su particular nombre se debe al aspecto 'atractivo' de esta Armadura"
+    },
+    {
+      "id": 19,
+      "imagen": "https://pm1.aminoapps.com/6708/647e2807eeb681e5c456377ee9770ec990ff0e81_hq.jpg",
+      "descripcion": "Armadura hecha como un prototipo de armadura de gran velocidad y artilleria. Su particular nombre es por la semejanza de poder y velocidad con el 'gran melino'."
+    },
+    {
+      "id": 20,
+      "imagen": "https://pm1.aminoapps.com/6708/b361f1bf1451c9e1b25032e99f42d1d7d79de870_hq.jpg",
+      "descripcion": "Version mejorada del MK XIX, esta Armadura aumentaba su velocidad considerablemente. Su particular nombre se debe la velocidad y los colores que esta Armadura tenia."
+    },
+    {
+      "id": 21,
+      "imagen": "https://pm1.aminoapps.com/6708/0e3364f78c04d3a53e82d2d6a88c5a256849bd01_hq.jpg",
+      "descripcion": "Armadura hecha como un homenaje al rey midas que convertía en oro todo lo que tocaba, no tiene nada que la distinga particularmente a excepeccion de su marticular color."
+    },
+    {
+      "id": 22,
+      "imagen": "https://pm1.aminoapps.com/6708/bc3aff68d44259ae593666f52640151a6bf60d0b_hq.jpg",
+      "descripcion": "Armadura sin ningún tipo de especialidad. Pintada con llamas y detalles en cromo como única rareza es ser la primera armadura con un reactor ARC en forma de rectángulo invertido. Su particular nombres es en honor al vehicula que inspiro al SR. Stark a ponerle color a sus Armaduras."
+    },
+    {
+      "id": 23,
+      "imagen": "https://pm1.aminoapps.com/6708/7c3cdf0a6be9cc644e850cdd81c20e9a1fac76eb_hq.jpg",
+      "descripcion": "Armadura hecha para poder soportar temperaturas extremas, tanto en valores positivos como negativos. Su particular nombre se debe que esta armadura podia absorver la radicacion al punto de no manifestarla en forma de sombra."
+    },
+    {
+      "id": 24,
+      "imagen": "https://pm1.aminoapps.com/6708/72cab6ce9b76a31de790a5b0cfa36408c78589d3_hq.jpg",
+      "descripcion": "Esta armadura fue hecha con el proposito de ser un escudo, su gran blindaje capaz de resistir proyectiles de gran tamaño Y explosiones. Su particular nombres tiene relacion con los Tanques que pueden soportar casi cualquier daño."
+    },
+    {
+      "id": 25,
+      "imagen": "https://pm1.aminoapps.com/6708/0a56ffbabbed65cfd47551fbf85411e1aa961087_hq.jpg",
+      "descripcion": "Armadura hecha para poder ayudar en situaciones de construcción pesadas, creando asi una erramienta capaz de atravezar cualquier cualquier muro, además de ser la primera armadura con un reactor ARC en forma de linea. Su particular nombre se debe a que era el primero en realizar trabajos de atravezar muros sin la necesidad de que un obrero se lastime."
+    },
+    {
+      "id": 26,
+      "imagen": "https://pm1.aminoapps.com/6708/132d70489459af45af5c77181c9c131f4e166b11_hq.jpg",
+      "descripcion": "Segunda version de la armadura hecha para poder ayudar en situaciones de construcción pesadas. Su nombre se debe al ser el segundo modelo de esta Armadura."
+    },
+    {
+      "id": 27,
+      "imagen": "https://pm1.aminoapps.com/6708/d86f05d91d199f5427153aaa7c694cd4079ab712_hq.jpg",
+      "descripcion": "Una armadura creada con el fin de ayudar al SR. Stark cuando necesitaba algo de deversion. Su particular nombre se debe a lo que representaba para el SR. Stark."
+    },
+    {
+      "id": 28,
+      "imagen": "https://pm1.aminoapps.com/6708/90f59ff6660710674d24d381347dc9a1e8a6dc6c_hq.jpg",
+      "descripcion": "Armadura hecha para situaciones de radiación fuerte o tóxicas. Su particular nombre es un Misterio para mi."
+    },
+    {
+      "id": 29,
+      "imagen": "https://pm1.aminoapps.com/6709/00f525f3eb93dbeeb26f10381f412fb2c4be6b45_hq.jpg",
+      "descripcion": "Armadura hecha para poder ayudar en situaciones de construcción ágil. Su particular nombre se debe a que en solamente una extremidad sostenia su herramienta."
+    },
+    {
+      "id": 30,
+      "imagen": "https://pm1.aminoapps.com/6709/72791e417a218468836a8a257fffc22f7411257e_hq.jpg",
+      "descripcion": "Armadura prototipo del silver centurión, Su particular nombre se debe al estilo propio de esta Armadura."
+    },
+    {
+      "id": 31,
+      "imagen": "https://pm1.aminoapps.com/6709/5fc99812b5add703ee93d6d22c47a942022c48e4_hq.jpg",
+      "descripcion": "Version mejorada del MK XX, esta armadura es también un prototipo del silver centurión además de ser una armadura de velocidad extrema. Su particlar nombre se debe a la pieza utilizada para poder mover motores."
+    },
+    {
+      "id": 32,
+      "imagen": "https://pm1.aminoapps.com/6709/6035830705c5d51578b99649f83973095cf50652_hq.jpg",
+      "descripcion": "Una Armadura sin ninguna especificacion, aunque el SR. Stark dijo que era la competencia de Cassanova. Se desconoce el porque de su particular nombre"
+    },
+    {
+      "id": 33,
+      "imagen": "https://pm1.aminoapps.com/6709/6c8e25ecf6efb390c32b170ecd57fe7aca7d92ae_hq.jpg",
+      "descripcion": "Version final de la armadura con un fuerte imán capaz de atraer cualquier metal y con cuchillas ocultas en los brazos."
+    },
+    {
+      "id": 34,
+      "imagen": "https://pm1.aminoapps.com/6709/59664ad33c96dfa06a6c8989dfc1b6c7487197e0_hq.jpg",
+      "descripcion": "Prototipo de traje de rescate de desastres además de ser la primera armadura en tener una garra en vez de un brazo. Su particular nombre se debe a que en esa extremidad llevaba su Herramienta"
+    },
+    {
+      "id": 35,
+      "imagen": "https://pm1.aminoapps.com/6709/55fa5eb78f7495f9920953ea354feab42b2b57bb_hq.jpg",
+      "descripcion": "Versión mejorada del MK XXXV, esta es una armadura perfeccionada para situaciónes de rescate o de desastre ."
+    },
+    {
+      "id": 36,
+      "imagen": "https://pm1.aminoapps.com/6709/14e318c17246e7cfae0c15e7a8edf9df9e220b74_hq.jpg",
+      "descripcion": "Armadura especial para poder controlar riñas y disturbios. Su particular nombre es por su gran porte que generaba respeto"
+    },
+    {
+      "id": 37,
+      "imagen": "https://pm1.aminoapps.com/6709/f0a111ca222a9a1cb5a3f06866b06869e4b8b2e1_hq.jpg",
+      "descripcion": "Armadura especial para poder respirar bajo el agua y viajes submarinos. Diseñada para operar en el océano. Su paritular nombre se debe a la especie de tiburon que vive a esas profundidades"
+    },
+    {
+      "id": 38,
+      "imagen": "https://pm1.aminoapps.com/6709/c1a1f810edfeb9f44e77f781cbaed45087358b5a_hq.jpg",
+      "descripcion": "Diseñada para levantar y soportar objetos bastante pesados, asi siendo de ayuda para apuntalar estructuras. Su particular nombre se debe a su forma."
+    },
+    {
+      "id": 39,
+      "imagen": "https://pm1.aminoapps.com/6709/49110b6b02b9c30d20b97b88306dcb933d46fb78_hq.jpg",
+      "descripcion": "Armadura especial para poder viajar al espacio. Su particular nombre se debe a que desde el espacio se observaba con un pulsar atravesando el espacio"
+    },
+    {
+      "id": 40,
+      "imagen": "https://pm1.aminoapps.com/6709/fde3c00d3e1ee1b4a423e37dc2578537ffdb2683_hq.jpg",
+      "descripcion": "Versión mejorada del MK XXXI, esta es una armadura perfeccionada de hyper velocidad capaz de ir a mach 5. Su particular nombre se debe ah su fuerza y velocidad."
+    },
+    {
+      "id": 41,
+      "imagen": "https://pm1.aminoapps.com/6709/04f600c04a436ba77282597e8c748989240b2f05_hq.jpg",
+      "descripcion": "Armadura hecha como un prototipo de traje modular, su particularidad que podia mover cada fragmento de su cuerpo en distintas direccion y volver a reconstruirse con precision."
+    },
+    {
+      "id": 42,
+      "imagen": "https://pm1.aminoapps.com/6709/19ae451f4aa0aa27d80cab944a9dc43428848b28_hq.jpg",
+      "descripcion": "Diseñado para el despliegue automático, el traje se compone de varias secciones separadas que pueden desplazarse en pequeñas cápsulas. Cada parte suya puede volar y automáticamente unirse al usuario. Puede ser convocado en cualquier momento, en respuesta a los impulsos transmitidos por los microchips implantados en el brazo izquierdo del SR. Stark."
+    },
+    {
+      "id": 43,
+      "imagen": "https://i.pinimg.com/originals/13/79/1a/13791aaabd448cc1101900d1d93badbc.jpg",
+      "descripcion": "Versión mejorada del MK XXXXIII, esta armadura es una versión perfeccionada de un traje modular. Cuenta con mejoras significativas, no solo en tecnologia si no, mejor armamento y capacidades."
+    },
+    {
+      "id": 44,
+      "imagen": "https://th.bing.com/th/id/OIP.BgidbZXXvfgFQ2KsU5GVLgAAAA?pid=ImgDet&rs=1",
+      "descripcion": "El Hulkbuster es una armadura gigantesca y especialmente diseñada para el combate contra enemigos con una fuerza y resistencia sobrehumanas, como Hulk. Fue diseñado con el propósito específico de contener y neutralizar a Hulk en caso de que se volviera incontrolable o representara una amenaza para la seguridad. Este traje es significativamente más grande y más pesado que las armaduras Iron Man convencionales. Presenta una estructura robusta y una gran potencia de fuego, que incluye puños impulsados por cohetes y armas de energía. Además, el Hulkbuster es capaz de resistir ataques extremadamente poderosos y proporcionar una defensa formidable contra las embestidas y golpes de Hulk. Su particular nombre proviene del mismo hulk."
+    },
+    {
+      "id": 45,
+      "imagen": "/src/layouts/strakLife/imagesLocals/mk45.webp",
+      "descripcion": "Una de las características destacadas del MK XXXXV es su capacidad de despliegue rápido. SR. Stark puede convocar el traje y equipárselo en cuestión de segundos, lo que le permite responder rápidamente a las amenazas. El traje también es altamente maniobrable y está equipado con una amplia variedad de armas y dispositivos, incluyendo rayos repulsores y misiles."
+    },
+    {
+      "id": 46,
+      "imagen": "/src/layouts/strakLife/imagesLocals/mk46.png",
+      "descripcion": "El MK XXXXVI es notable por su capacidad de despliegue rápido y su versatilidad en combate. Al igual que los trajes anteriores, está equipado con rayos repulsores, misiles y otras armas avanzadas. Además, presenta características mejoradas de vuelo y maniobrabilidad, lo que permite a Iron Man ser altamente ágil en el aire y en el combate."
+    },
+    {
+      "id": 47,
+      "imagen": "https://i.pinimg.com/originals/82/6f/92/826f9201f6943bb8372d02349ab796a8.jpg",
+      "descripcion": "El MK XXXXVII hereda las características avanzadas de las versiones anteriores, como la capacidad de despliegue rápido y la versatilidad en combate. Está equipado con rayos repulsores, misiles y una amplia variedad de armas y dispositivos de alta tecnología. Además, presenta mejoras en términos de maniobrabilidad y vuelo, lo que permite a SR. Stark enfrentar amenazas con mayor eficacia."
+    },
+    {
+      "id": 48,
+      "imagen": "https://i.pinimg.com/originals/a3/8d/ba/a38dbabab89520e15e05ae4cbc7e77a1.jpg",
+      "descripcion": "Esta armadura es más avanzada que cualquier otra armadura en curso, ya que posee muchas capacidades y funciones útiles para que Tony use a su disposición. Al igual que el Mark 45, 46 y 47, esta armadura tiene incorporado el sistema operativo VIERNES y posee algunas de las armas y la tecnología más avanzada en comparación con otras armaduras que SR. Stark ha construido. Esta armadura presenta nanotecnología avanzada similar a la tecnología de Wakanda y el traje de Black Panther, esta nano tecnologia le permite a la armadura poder tener diferentes formas y caracteristicas especiales. el MK XXXXVIII tiene un casco que puede deformarse por completo si es necesario."
     }
   ]
 }

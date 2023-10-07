@@ -1,9 +1,25 @@
 ---
+interface Props {
+	title: string;
+}
 
+const { title } = Astro.props;
 ---
 
-<section class="bg-red-900 animate-pulse h-full">
-  <div class="bg-yellow-400">
-    <h3 class="text-6xl">NO SE VE</h3>
-  </div>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{title}</title>
+  </head>
+  <body>
+    <section class=" w-full h-full flex flex-col justify-center items-center">
+      <div class=" bg-[#151615] ">
+        <p class="text-white mt-10 text-center text-3xl">LO SIENTO EN ESTE MOMENTO!</p>
+        <img class="w-full h-[200px] my-10 rounded-lg" src="/src/images/babas.jpeg"/>
+        <p class="text-white mb-10 text-center text-3xl">NO ESTAMOS DISPONIBLES... GRACIAS POR SU ATENCION</p>
+      </div>
+    </section>
+  </body>
+</html>

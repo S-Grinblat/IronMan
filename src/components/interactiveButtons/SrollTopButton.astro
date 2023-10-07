@@ -1,0 +1,39 @@
+
+<script>
+  const toTop = document.querySelector('.to-top');
+
+toTop?.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
+</script>
+
+<button class="to-top">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-arrow-up" width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="#ffc619" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"></path>
+    <path d="M12 8l-4 4"></path>
+    <path d="M12 8v8"></path>
+    <path d="M16 12l-4 -4"></path>
+  </svg>
+</button>
+
+
+<style>
+  .to-top {
+    background-color: rgba(77 9 8 / .7);
+    position: fixed;
+    top: 16px;
+    right: 32px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    cursor: pointer;
+  }
+</style>

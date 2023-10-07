@@ -5,14 +5,8 @@ interface Props {
 
 const { title } = Astro.props;
 
-import Presentation from '../components/Presentation.astro';
-import Header from './Header.astro';
-import Nav from './Nav.astro';
-import Advengers from './strakLife/Advengers.astro';
-import Armors from './strakLife/Armors.astro';
-import Heart from './strakLife/Heart.astro';
-import Houses from './strakLife/Houses.astro';
-import TonyStark from './strakLife/TonyStark.astro';
+import FixedPage from './fixedPage/FixedPage.astro';
+import StarkLife from './strakLife/StarkLife.astro';
 ---
 
 <!doctype html>
@@ -26,16 +20,9 @@ import TonyStark from './strakLife/TonyStark.astro';
 		<title>{title}</title>
 	</head>
 	<body>
+		<FixedPage/>
 		<main class="bg-black  w-full h-[full] pb-2">
-			<Presentation/>
-			<Nav/>
-			<Header />
-			<TonyStark/>
-			<Houses/>
-			<Armors/>
-			<Heart/>
-			<Advengers/>
-			<slot />
+			<StarkLife/>
 		</main>
 	</body>
 </html>

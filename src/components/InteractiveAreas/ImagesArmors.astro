@@ -8,20 +8,50 @@ const mostPopularArmors = [
   },
   {
     "id": 'Armor II',
+    "img": "https://i.pinimg.com/originals/84/d0/17/84d017fdccc99df9aba2b3682b03cbe1.jpg",
+    "descripcion": "La primera armadura construida por Tony Stark en cautiverio. Hecha de chatarra y piezas de misiles."
+  },
+  {
+    "id": 'Armor III',
+    "img": "https://vignette.wikia.nocookie.net/marvel/images/1/13/Armadura_de_Iron_Man_MK_III_(Tierra-199999).jpg/revision/latest?cb=20130929220447&path-prefix=es",
+    "descripcion": "Una versión mejorada de la Mark II con un diseño más elegante y una mayor resistencia."
+  },
+  {
+    "id": 'Armor IV',
+    "img": "https://th.bing.com/th/id/OIP._yV3bTfzlJbSCWih3Z94nAHaNp?pid=ImgDet&rs=1",
+    "descripcion": "Una versión mejorada de la Mark II con un diseño más elegante y una mayor resistencia."
+  },
+  {
+    "id": 'Armor V',
     "img": "https://i.pinimg.com/originals/af/87/0f/af870f91c72ef8d04f3ea6e76ad76d69.jpg",
+    "descripcion": "Una versión mejorada de la Mark II con un diseño más elegante y una mayor resistencia."
+  },
+  {
+    "id": 'Armor XLII',
+    "img": "https://i.pinimg.com/736x/55/61/0a/55610aa2385858f790709698d1456741--iron-man-movie-iron-man-suit.jpg",
+    "descripcion": "Una versión mejorada de la Mark II con un diseño más elegante y una mayor resistencia."
+  },
+  {
+    "id": 'Armor XLIV',
+    "img": "https://th.bing.com/th/id/OIP.BgidbZXXvfgFQ2KsU5GVLgAAAA?pid=ImgDet&rs=1",
     "description": "La primera armadura construida por Tony Stark en cautiverio. Hecha de chatarra y piezas de misiles."
+  },
+  {
+    "id": 'Armor XLV',
+    "img": "https://iphoneswallpapers.com/wp-content/uploads/2019/06/Iron-Man-Mark-85-Infinity-Stone-Armor-iPhone-Wallpaper.jpg",
+    "descripcion": "Una versión mejorada de la Mark II con un diseño más elegante y una mayor resistencia."
   }
 ]
 ---
 
 
 
-<div class="flex overflow-x-auto">
-  <ul class="flex  sm:gap-4 md:grid md:grid-cols-2 lg:gap-10">
+<div class="flex overflow-x-auto  lg:px-4 ">
+  <ul class="flex px-4 gap-2 sm:gap-4 md:grid md:grid-cols-2 lg:grid-cols-4 lg:gap-6 ">
     {
       mostPopularArmors.map(({id, img}) => {
         return(
-          <li class="w-[320px] ">
+          <li >
             <CardArmorsImage id={id} img={img}/>
           </li>
         )

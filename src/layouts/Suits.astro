@@ -1,0 +1,75 @@
+---
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+
+import {AllSuits} from '../components/InteractiveAreas/AllSuits'
+import Data from '../components/data/data.json'
+import SrollTopButton from '../components/interactiveButtons/SrollTopButton.astro';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Astro description" />
+		<link rel="icon" href="/public/ironman.ico" />
+		<meta name="generator" content={Astro.generator} />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{title}</title>
+  </head>
+  <body>
+    <section class="bg-black  w-full h-full ">
+      <h2 class="title pt-8">ALL THE SUITS OF MR. <strong translate="no" >STARK</strong></h2>
+      <p class="text-white text-center px-2">Previously we looked at the most iconic armors that I wear, now we will look at each and every one of them in their entirety, with a brief feature.</p>
+			<SrollTopButton/>
+      <div>
+        <AllSuits Suits={Data.Suits}/>
+      </div>
+    </section>
+  </body>
+</html>
+
+<style>
+  code {
+		font-family:
+			Menlo,
+			Monaco,
+			Lucida Console,
+			Liberation Mono,
+			DejaVu Sans Mono,
+			Bitstream Vera Sans Mono,
+			Courier New,
+			monospace,
+			'IRON MAN OF WAR';
+	}
+
+  @font-face {
+    font-family: 'IRON MAN OF WAR';
+    src: url(../../public/IRON\ MAN\ OF\ WAR\ 002\ NCV.ttf);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  p {
+		font-family: 'Courier New', Courier, monospace;
+	}
+
+	.title {
+		color: #7cdaf9;
+		font-family: 'IRON MAN OF WAR';
+		text-align: center;
+		font-size: 3rem;
+		line-height: 1;
+		animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+	}
+
+	@keyframes pulse {
+		50% {
+			opacity: .5;
+		}
+	}
+</style>
