@@ -8,6 +8,7 @@ const { title } = Astro.props;
 import {AllSuits} from '../components/InteractiveAreas/AllSuits'
 import Data from '../components/data/data.json'
 import SrollTopButton from '../components/interactiveButtons/SrollTopButton.astro';
+import ReturnButton from '../components/interactiveButtons/ReturnButton.astro';
 ---
 
 <!DOCTYPE html>
@@ -21,9 +22,11 @@ import SrollTopButton from '../components/interactiveButtons/SrollTopButton.astr
     <title>{title}</title>
   </head>
   <body>
-    <section class="bg-black  w-full h-full ">
+    <section class="bg-black pr-2  w-full h-full ">
+      <ReturnButton/>
       <h2 class="title pt-8">ALL THE SUITS OF MR. <strong translate="no" >STARK</strong></h2>
-      <p class="text-white text-center px-2">Previously we looked at the most iconic armors that I wear, now we will look at each and every one of them in their entirety, with a brief feature.</p>
+      <p class="text-gray-400 text-center px-2">Previously we looked at the most iconic armors that I wear, now we will look at each and every one of them in their entirety, with a brief feature.</p>
+			<p class="text-white text-center px-2">Click on the image for information about it.</p>
 			<SrollTopButton/>
       <div>
         <AllSuits Suits={Data.Suits}/>
