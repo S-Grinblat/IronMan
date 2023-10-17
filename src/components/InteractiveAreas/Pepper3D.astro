@@ -1,6 +1,6 @@
 ---
 
-
+import Pepper from '../../layouts/strakLife/imagesLocals/Pepper.jpeg'
 
 ---
 
@@ -40,9 +40,9 @@ el?.addEventListener('mousemove', (evt) => {
 
   <div class="hover-3d">
     <div id="card" @mouseover="onMouseOver" @mouseout="onMouseOut">
-      <div class='inline-block w-56 h-auto py-4'>
-        <img src='/src/layouts/strakLife/imagesLocals/Pepper.jpeg' class=' w-full h-full object-cover rounded-xl'></img>
-      </div>
+      <picture class='inline-block w-56 h-auto py-4'>
+        <img src={Pepper.src} class=' w-full h-full object-cover rounded-xl'>
+      </picture>
     </div>
   </div>
 

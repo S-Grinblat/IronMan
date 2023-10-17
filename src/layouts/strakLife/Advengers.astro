@@ -1,13 +1,13 @@
 ---
 import AdvengersInfoButton from "../../components/interactiveButtons/AdvengersInfoButton.astro";
-
+import AdvengersPhoto from '../../layouts/strakLife/imagesLocals/The-Avengers-End-Pictures.jpeg'
 ---
 
 <section class="py-9" id="Team">
   <h3 class="title">Advengers</h3>
   <div class="flex flex-col justify-center items-center">
     <div class="w-[320px] h-auto p-3 md:grid md:grid-cols-2 md:w-full md:items-center"> 
-      <img class="w-full h-full bg-cover rounded-xl md:w-[650px]" src="/src/layouts/strakLife/imagesLocals/The-Avengers-End-Pictures.jpeg" alt="Advengers">
+      <img class="w-full h-full bg-cover rounded-xl md:w-[650px]" src={AdvengersPhoto.src} alt="Advengers">
       <p class="text-gray-400 md:px-6 text-center">The Avengers Initiative was created as a response to cosmic and terrestrial threats that required the collaboration of superheroes. It provided a means to coordinate resources, protect the Earth and the universe, and promoted unity in diversity. Over the years, it has been a symbol of hope and protection in the universe.</p>
       <p class="text-gray-400 px-6 text-center mt-4">Team members have varied over the years, but the most iconic characters include <strong class="text-gray-300">Iron Man, Captain America, Thor, Hulk, Black Widow, and Hawkeye.</strong></p>
     </div>
