@@ -1,3 +1,4 @@
+
 {
   "Suits": [
     {
@@ -219,16 +220,6 @@
       "id": 44,
       "imagen": "https://th.bing.com/th/id/OIP.BgidbZXXvfgFQ2KsU5GVLgAAAA?pid=ImgDet&rs=1",
       "descripcion": "The Hulkbuster is a gigantic armor specially designed for combat against enemies with superhuman strength and endurance, like the Hulk. It was designed for the specific purpose of containing and neutralizing the Hulk should he become uncontrollable or pose a security threat. This suit is significantly larger and heavier than conventional Iron Man armors. It features a sturdy build and heavy firepower, including rocket-powered fists and energy weapons. Additionally, the Hulkbuster is capable of withstanding extremely powerful attacks and providing formidable defense against the Hulk's attacks and blows. Its particular name comes from the Hulk himself."
-    },
-    {
-      "id": 45,
-      "imagen": "/src/layouts/strakLife/imagesLocals/mk45.webp",
-      "descripcion": "One of the notable features of the MK XXXXV is its rapid deployment capability. MR. Stark can summon the suit and equip it in a matter of seconds, allowing him to quickly respond to threats. The suit is also highly maneuverable and equipped with a wide variety of weapons and devices, including repulsor rays and missiles."
-    },
-    {
-      "id": 46,
-      "imagen": "/src/layouts/strakLife/imagesLocals/mk46.png",
-      "descripcion": "The MK XXXXVI is notable for its rapid deployment capability and versatility in combat. Like the previous suits, it is equipped with repulsor rays, missiles and other advanced weapons. Additionally, it features improved flight and maneuverability characteristics, allowing Iron Man to be highly agile in the air and in combat."
     },
     {
       "id": 47,
