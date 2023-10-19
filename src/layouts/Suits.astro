@@ -9,6 +9,7 @@ import {AllSuits} from '../components/InteractiveAreas/AllSuits'
 import Data from '../components/data/data.json'
 import SrollTopButton from '../components/interactiveButtons/SrollTopButton.astro';
 import ReturnButton from '../components/interactiveButtons/ReturnButton.astro';
+import IronIcon from '../../public/ironman.ico';
 ---
 
 <!DOCTYPE html>
@@ -16,7 +17,7 @@ import ReturnButton from '../components/interactiveButtons/ReturnButton.astro';
   <head>
     <meta charset="UTF-8">
     <meta name="description" content="Astro description" />
-		<link rel="icon" href="/public/ironman.ico" />
+		<link rel="icon" href={IronIcon} />
 		<meta name="generator" content={Astro.generator} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title}</title>
