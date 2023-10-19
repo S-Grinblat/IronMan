@@ -7,7 +7,43 @@ import video from '../images/ironman.mp4';
 </div>
 
 <style>
-  h3 {
+  code {
+		font-family:
+			Menlo,
+			Monaco,
+			Lucida Console,
+			Liberation Mono,
+			DejaVu Sans Mono,
+			Bitstream Vera Sans Mono,
+			Courier New,
+			monospace,
+			'IRON MAN OF WAR';
+	}
+
+  @font-face {
     font-family: 'IRON MAN OF WAR';
+    src: url(../../public/IRON\ MAN\ OF\ WAR\ 002\ NCV.ttf);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
   }
+
+  p {
+		font-family: 'Courier New', Courier, monospace;
+	}
+
+	.title {
+		color: #7cdaf9;
+		font-family: 'IRON MAN OF WAR';
+		text-align: center;
+		font-size: 3rem;
+		line-height: 1;
+		animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+	}
+
+	@keyframes pulse {
+		50% {
+			opacity: .5;
+		}
+	}
 </style>
