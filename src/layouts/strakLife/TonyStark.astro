@@ -12,6 +12,22 @@ import Tony3d from '../../components/InteractiveAreas/Stark3d.astro'
 </section>
 
 <style>
+  @font-face {
+    font-family: 'IRON MAN OF WAR';
+    src: url(../../public/IRON\ MAN\ OF\ WAR\ 002\ NCV.ttf) format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  .title is:global(h2){
+		color: #7cdaf9;
+		font-family: 'IRON MAN OF WAR';
+		text-align: center;
+		font-size: 3rem;
+		line-height: 1;
+		animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+	}
   p {
     max-width: 500px;
   }
