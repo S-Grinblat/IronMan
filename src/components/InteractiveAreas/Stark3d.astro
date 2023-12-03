@@ -41,7 +41,7 @@ el?.addEventListener('mousemove', (evt) => {
   <div class="hover-3d">
     <div id="cardHeart" @mouseover="onMouseOver" @mouseout="onMouseOut">
       <picture class='inline-block w-56 h-auto py-2'>
-        <img src={Tony.src} class=' w-full h-full object-cover rounded-xl' alt="Tony Stark image">
+        <img src={Tony.src} loading="lazy" class=' w-full h-full object-cover rounded-xl' alt="Tony Stark image">
       </picture>
     </div>
   </div>
